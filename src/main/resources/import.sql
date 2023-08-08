@@ -1,0 +1,12 @@
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (1, 'Dennis', 'Ritchie','dritchie@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (2, 'Bjarne', 'Stroustrup', 'bstroustrup@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (3, 'James', 'Gosling', 'jgosling@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (4, 'Anders', 'Anders', 'hejlsberg@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (5, 'Guido', 'Van Rossum', 'gvrossum@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (6, 'Rasmus', 'Lerdof', 'rlerdorf@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (7, 'Brendan', 'Eich', 'beich@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (8, 'Yukihiro', 'Matsumoto', 'ymatsumoto@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (9, 'Linus', 'Torvals', 'ltorvals@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (10, 'Frederik', 'Kottler', 'fdxdesarrollos@gmail.com', '2023-03-01');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (11, 'John', 'Doe', 'john.doe@gmail.com', '2023-03-05');
+INSERT INTO `clientes` (id, nombre, apellido, correo, fecha) VALUES (12, 'Andrés José', 'Guzmán', 'ajguzman@gmail.com', '2023-03-05');

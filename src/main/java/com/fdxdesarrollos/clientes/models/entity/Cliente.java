@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -23,7 +24,7 @@ public class Cliente implements Serializable {
 	
 	private String nombre;
 	private String apellido;
-	private String email;
+	private String correo;
 	
 	@Temporal(TemporalType.DATE)
 	private Date fecha;
@@ -53,12 +54,12 @@ public class Cliente implements Serializable {
 		this.apellido = apellido;
 	}
 	
-	public String getEmail() {
-		return email;
+	public String getCorreo() {
+		return correo;
 	}
 	
-	public void setEmail(String email) {
-		this.email = email;
+	public void setCorreo(String correo) {
+		this.correo = correo;
 	}
 	
 	public Date getFecha() {
@@ -69,9 +70,14 @@ public class Cliente implements Serializable {
 		this.fecha = fecha;
 	}
 	
+	@PrePersist
+	public void prePersist() {
+		fecha = new Date();
+	}
+	
 	@Override
 	public String toString() {
-		return "Cliente [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", email=" + email + ", fecha="
+		return "Cliente [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", correo=" + correo + ", fecha="
 				+ fecha + "]";
 	}
 
